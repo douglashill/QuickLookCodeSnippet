@@ -11,8 +11,8 @@
 		F64DF76118856516009CB618 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64DF76018856516009CB618 /* ApplicationServices.framework */; };
 		F64DF76318856516009CB618 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64DF76218856516009CB618 /* CoreServices.framework */; };
 		F64DF76518856516009CB618 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64DF76418856516009CB618 /* CoreFoundation.framework */; };
-		F64DF76D18856516009CB618 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = F64DF76C18856516009CB618 /* GenerateThumbnailForURL.c */; };
-		F64DF76F18856516009CB618 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = F64DF76E18856516009CB618 /* GeneratePreviewForURL.c */; };
+		F64DF76D18856516009CB618 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = F64DF76C18856516009CB618 /* GenerateThumbnailForURL.m */; };
+		F64DF76F18856516009CB618 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = F64DF76E18856516009CB618 /* GeneratePreviewForURL.m */; };
 		F64DF77118856516009CB618 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F64DF77018856516009CB618 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -22,8 +22,8 @@
 		F64DF76018856516009CB618 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		F64DF76218856516009CB618 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		F64DF76418856516009CB618 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		F64DF76C18856516009CB618 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
-		F64DF76E18856516009CB618 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		F64DF76C18856516009CB618 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		F64DF76E18856516009CB618 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
 		F64DF77018856516009CB618 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F64DF77B1885662E009CB618 /* QuickLookCodeSnippet-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "QuickLookCodeSnippet-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,8 +75,8 @@
 		F64DF76618856516009CB618 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				F64DF76C18856516009CB618 /* GenerateThumbnailForURL.c */,
-				F64DF76E18856516009CB618 /* GeneratePreviewForURL.c */,
+				F64DF76C18856516009CB618 /* GenerateThumbnailForURL.m */,
+				F64DF76E18856516009CB618 /* GeneratePreviewForURL.m */,
 				F64DF77018856516009CB618 /* main.c */,
 			);
 			path = Source;
@@ -173,8 +173,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F64DF76D18856516009CB618 /* GenerateThumbnailForURL.c in Sources */,
-				F64DF76F18856516009CB618 /* GeneratePreviewForURL.c in Sources */,
+				F64DF76D18856516009CB618 /* GenerateThumbnailForURL.m in Sources */,
+				F64DF76F18856516009CB618 /* GeneratePreviewForURL.m in Sources */,
 				F64DF77118856516009CB618 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
