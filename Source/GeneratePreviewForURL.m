@@ -1,3 +1,4 @@
+@import Foundation;
 #include <CoreFoundation/CoreFoundation.h>
 #include <CoreServices/CoreServices.h>
 #include <QuickLook/QuickLook.h>
@@ -13,8 +14,9 @@ void CancelPreviewGeneration(void *thisInterface, QLPreviewRequestRef preview);
 
 OSStatus GeneratePreviewForURL(void *thisInterface, QLPreviewRequestRef preview, CFURLRef url, CFStringRef contentTypeUTI, CFDictionaryRef options)
 {
-    // To complete your generator please implement the function GeneratePreviewForURL in GeneratePreviewForURL.c
-    return noErr;
+	NSData *htmlData = [@"<p>hello</p>" dataUsingEncoding:NSUTF8StringEncoding];
+	QLPreviewRequestSetDataRepresentation(preview, (__bridge CFDataRef)(htmlData), kUTTypeHTML, NULL);
+	return noErr;
 }
 
 void CancelPreviewGeneration(void *thisInterface, QLPreviewRequestRef preview)
