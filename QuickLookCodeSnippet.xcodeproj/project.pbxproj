@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A52240CE1888A114002AE6B2 /* CodeSnippetConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A52240CC1888A114002AE6B2 /* CodeSnippetConstants.h */; };
 		A52240CF1888A114002AE6B2 /* CodeSnippetConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A52240CD1888A114002AE6B2 /* CodeSnippetConstants.m */; };
+		A52240D11888A542002AE6B2 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = A52240D01888A542002AE6B2 /* template.html */; };
 		F64DF75F18856516009CB618 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64DF75E18856516009CB618 /* QuickLook.framework */; };
 		F64DF76118856516009CB618 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64DF76018856516009CB618 /* ApplicationServices.framework */; };
 		F64DF76318856516009CB618 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64DF76218856516009CB618 /* CoreServices.framework */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		A52240CC1888A114002AE6B2 /* CodeSnippetConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeSnippetConstants.h; sourceTree = "<group>"; };
 		A52240CD1888A114002AE6B2 /* CodeSnippetConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeSnippetConstants.m; sourceTree = "<group>"; };
+		A52240D01888A542002AE6B2 /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.html; sourceTree = "<group>"; };
 		F64DF75B18856516009CB618 /* QuickLookCodeSnippet.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickLookCodeSnippet.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64DF75E18856516009CB618 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		F64DF76018856516009CB618 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				F64DF77B1885662E009CB618 /* QuickLookCodeSnippet-Info.plist */,
+				A52240D01888A542002AE6B2 /* template.html */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52240D11888A542002AE6B2 /* template.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
