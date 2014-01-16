@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A52240CE1888A114002AE6B2 /* CodeSnippetConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A52240CC1888A114002AE6B2 /* CodeSnippetConstants.h */; };
+		A52240CF1888A114002AE6B2 /* CodeSnippetConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A52240CD1888A114002AE6B2 /* CodeSnippetConstants.m */; };
 		F64DF75F18856516009CB618 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64DF75E18856516009CB618 /* QuickLook.framework */; };
 		F64DF76118856516009CB618 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64DF76018856516009CB618 /* ApplicationServices.framework */; };
 		F64DF76318856516009CB618 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64DF76218856516009CB618 /* CoreServices.framework */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A52240CC1888A114002AE6B2 /* CodeSnippetConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeSnippetConstants.h; sourceTree = "<group>"; };
+		A52240CD1888A114002AE6B2 /* CodeSnippetConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeSnippetConstants.m; sourceTree = "<group>"; };
 		F64DF75B18856516009CB618 /* QuickLookCodeSnippet.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickLookCodeSnippet.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64DF75E18856516009CB618 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		F64DF76018856516009CB618 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
@@ -78,6 +82,8 @@
 				F64DF76C18856516009CB618 /* GenerateThumbnailForURL.m */,
 				F64DF76E18856516009CB618 /* GeneratePreviewForURL.m */,
 				F64DF77018856516009CB618 /* main.c */,
+				A52240CC1888A114002AE6B2 /* CodeSnippetConstants.h */,
+				A52240CD1888A114002AE6B2 /* CodeSnippetConstants.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -97,6 +103,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52240CE1888A114002AE6B2 /* CodeSnippetConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52240CF1888A114002AE6B2 /* CodeSnippetConstants.m in Sources */,
 				F64DF76D18856516009CB618 /* GenerateThumbnailForURL.m in Sources */,
 				F64DF76F18856516009CB618 /* GeneratePreviewForURL.m in Sources */,
 				F64DF77118856516009CB618 /* main.c in Sources */,
